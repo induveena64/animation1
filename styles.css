@@ -1,0 +1,19 @@
+#container{
+  background-image: url(day.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height:400px;
+  animation-name: view;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes view {
+    from {
+        background-image: url(day.jpg);
+    }
+    to {
+        background-image: url(night1.jpg);
+    }
+    
+    
+}
